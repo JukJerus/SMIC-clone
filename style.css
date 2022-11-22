@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Carrois+Gothic&family=Montserrat&family=Poppins&display=swap%27");
+/* 
+font-family: 'Red Rose', cursive;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Carrois Gothic', sans-serif;
+font-family: 'Barlow', sans-serif; */
+
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(media/monas2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -3px;
+}
+.judul {
+  text-align: center;
+  color: white;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 40px;
+  width: 45pc;
+  margin: auto;
+  font-family: "Saira Stencil One", cursive;
+}
+
+.tgl {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.tombol {
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #5e30dd;
+  border-radius: 5px;
+  width: 150px;
+  margin: 30px auto;
+}
+
+/* .marque{
+    background-color: #5e30dd;
+} */
+
+.test {
+  font-size: 20px;
+  background-color: #031657;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 110px;
+  margin-bottom: 50px;
+}
+
+/* .table{
+    margin-left: 100px;
+} */
+
+/* #F1F6FF */
+
+.congrats {
+  font-weight: 500;
+  color: #1e276d;
+  padding-top: 10px;
+  font-size: 22px;
+  text-align: center;
+  width: 85%;
+  border: 1px solid #d35dd5;
+  margin: 70px auto;
+}
+
+.atas {
+  border-radius: 7px;
+  padding: 10px 40px;
+  vertical-align: middle;
+  color: white;
+  margin: auto;
+  width: 85%;
+  background-color: #631ecc;
+  justify-content: space-between;
+  display: flex;
+}
+.atas p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.atas div {
+  width: 80%;
+}
+
+.bawah .kiri {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #cfdeff;
+  width: 60%;
+}
+.bawah .kanan {
+  padding: 20px;
+  margin-left: 30px;
+  width: 30%;
+  border-radius: 10px;
+  background-color: #ffe4db;
+}
+
+#Conscope {
+  background-color: #f1f6ff;
+}
+
+#physics {
+  padding-top: 30px;
+  border-radius: 30px;
+  margin-left: 50px;
+  background-color: #ffffff;
+}
+#chemistry {
+  padding-top: 30px;
+  border-radius: 30px;
+  margin-left: 50px;
+  background-color: #ffffff;
+}
+#allsp {
+  background-color: #5e30dd;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#footer {
+  background-color: #bdc7ea;
+  height: 500px;
+}
+#terbawah {
+  background-color: #07062d;
+  height: 50px;
+}
